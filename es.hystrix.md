@@ -52,7 +52,8 @@ __3) Concurrency__
 
 Parallel execution. Concurrency aware request caching. Automated batching through request collapsing.
 
-##Hello World!
+Hello World!
+--------
 Code to be isolated is wrapped inside the run() method of a HystrixCommand similar to the following:
 
 ```java
@@ -73,11 +74,11 @@ public class CommandHelloWorld extends HystrixCommand<String> {
 }
 ```
 This command could be used like this:
-
-    String s = new CommandHelloWorld("Bob").execute();
-    Future<String> s = new CommandHelloWorld("Bob").queue();
-    Observable<String> s = new CommandHelloWorld("Bob").observe();
-
+```java
+String s = new CommandHelloWorld("Bob").execute();
+Future<String> s = new CommandHelloWorld("Bob").queue();
+Observable<String> s = new CommandHelloWorld("Bob").observe();
+```
 More examples and information can be found in the [How To Use](https://github.com/Netflix/Hystrix/wiki/How-To-Use) section.
 Example source code can be found in the [hystrix-examples](https://github.com/Netflix/Hystrix/tree/master/hystrix-examples/src/main/java/com/netflix/hystrix/examples) module.
 
