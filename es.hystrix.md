@@ -76,8 +76,8 @@ public class CommandHelloWorld extends HystrixCommand<String> {
 This command could be used like this:
 ```java
 String s = new CommandHelloWorld("Bob").execute();
-Future<String> s = new CommandHelloWorld("Bob").queue();
-Observable<String> s = new CommandHelloWorld("Bob").observe();
+Future <String> s = new CommandHelloWorld("Bob").queue();
+Observable <String> s = new CommandHelloWorld("Bob").observe();
 ```
 More examples and information can be found in the [How To Use](https://github.com/Netflix/Hystrix/wiki/How-To-Use) section.
 Example source code can be found in the [hystrix-examples](https://github.com/Netflix/Hystrix/tree/master/hystrix-examples/src/main/java/com/netflix/hystrix/examples) module.
@@ -201,6 +201,5 @@ Unless required by applicable law or agreed to in writing, software distributed 
 
 [license]:LICENSE-2.0.txt
 [license img]:https://img.shields.io/badge/License-Apache%202-blue.svg
-
 
 
