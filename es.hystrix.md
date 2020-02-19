@@ -170,12 +170,17 @@ This demo simulates 4 different [HystrixCommand](https://github.com/Netflix/Hyst
 It logs the results of [HystrixRequestLog](https://github.com/Netflix/Hystrix/blob/master/hystrix-core/src/main/java/com/netflix/hystrix/HystrixRequestLog.java) and metrics from [HystrixCommandMetrics](https://github.com/Netflix/Hystrix/blob/master/hystrix-core/src/main/java/com/netflix/hystrix/HystrixCommandMetrics.java).
 
 
-##Dashboard
+Dashboard
+------
 The hystrix-dashboard component of this project has been deprecated and moved to [Netflix-Skunkworks/hystrix-dashboard](https://github.com/Netflix-Skunkworks/hystrix-dashboard).
 Please see the README there for more details including important security considerations.
-##Bugs and Feedback
+
+Bugs and Feedback
+------
 For bugs, questions and discussions please use the [GitHub Issues](https://github.com/Netflix/Hystrix/issues).
-##LICENSE
+
+LICENSE
+-------
 Copyright 2013 Netflix, Inc.
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
