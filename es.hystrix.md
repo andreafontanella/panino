@@ -20,29 +20,35 @@ so that the latest version in Maven Central is aligned with the last known stabl
 
 Hystrix has served Netflix and the community well over the years, and the transition to maintenance mode is in no way an indication that the concepts and ideas from Hystrix are no longer valuable. On the contrary, Hystrix has inspired many great ideas and projects. We thank everyone at Netflix, and in the greater community, for all the contributions made to Hystrix over the years.
 
-##Introduction
+Introduction
+--------
 Hystrix is a latency and fault tolerance library designed to isolate points of access to remote systems, services and 3rd party libraries, stop cascading failure and enable resilience in complex distributed systems where failure is inevitable.
 
-##Full Documentation
+Full Documentation
+--------
 See the [Wiki](https://github.com/Netflix/Hystrix/wiki) for full documentation, examples, operational details and other information.
 
 See the [Javadoc](http://netflix.github.io/Hystrix/javadoc/) for the API.
 
-##Communication
-
+Communication
+---------
 * Google Group: [HystrixOSS](https://groups.google.com/forum/#!forum/hystrixoss)
 * Twitter: [@HystrixOSS](https://twitter.com/HystrixOSS)
 * [GitHub Issues](https://github.com/Netflix/Hystrix/issues)
 
-##What does it do?
-####1) Latency and Fault Tolerance
+What does it do?
+--------
+__1) Latency and Fault Tolerance__
+
 Stop cascading failures. Fallbacks and graceful degradation. Fail fast and rapid recovery.
 Thread and semaphore isolation with circuit breakers.
-####2) Realtime Operations
+
+__2) Realtime Operations__
+
 Realtime monitoring and configuration changes. Watch service and property changes take effect immediately as they spread across a fleet.
 Be alerted, make decisions, affect change and see results in seconds.
 
-####3) Concurrency
+__3) Concurrency__
 
 Parallel execution. Concurrency aware request caching. Automated batching through request collapsing.
 
