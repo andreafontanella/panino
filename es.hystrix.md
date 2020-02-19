@@ -141,11 +141,11 @@ Futher details on building can be found on the [Getting Started](https://github.
 Run Demo
 -----------
 To run a [demo](https://github.com/Netflix/Hystrix/blob/master/hystrix-examples/src/main/java/com/netflix/hystrix/examples/demo/HystrixCommandDemo.java) app do the following:
-
-    $ git clone git@github.com:Netflix/Hystrix.git
-    $ cd Hystrix/
-    ./gradlew runDemo
-
+```
+$ git clone git@github.com:Netflix/Hystrix.git
+$ cd Hystrix/
+./gradlew runDemo
+```
 You will see output similar to the following:
 ```
 Request => GetUserAccountCommand[SUCCESS][8ms], GetPaymentInformationCommand[SUCCESS][20ms], GetUserAccountCommand[SUCCESS, RESPONSE_FROM_CACHE][0ms]x2, GetOrderCommand[SUCCESS][101ms], CreditCardCommand[SUCCESS][1075ms]
