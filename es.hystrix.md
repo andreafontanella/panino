@@ -7,8 +7,8 @@ Hystrix: Latency and Fault Tolerance for Distributed Systems
 [![][maven img]][maven]
 [![][license img]][license]
 
-#Hystric status
-
+Hystric status
+==================
 Hystrix is no longer in active development, and is currently in maintenance mode.
 
 Hystrix (at version 1.5.18) is stable enough to meet the needs of Netflix for our existing applications. Meanwhile, our focus has shifted towards more adaptive
