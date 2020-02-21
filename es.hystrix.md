@@ -7,7 +7,7 @@ Hystrix: Latency and Fault Tolerance for Distributed Systems
 [![][maven img]][maven]
 [![][license img]][license]
 
-Hystric status
+Hystrix status
 ==================
 Hystrix is no longer in active development, and is currently in maintenance mode.
 
